@@ -1,25 +1,4 @@
-/*
-SE COMENTA ESTA PARTE
-
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}*/
- 
-/*
-HACIA ABAJO ES EL CONTENIDO DEL TEMPLETE
-*/
-  
-@import url(css/fontawesome-all.min.css);
+@import url(fontawesome-all.min.css);
 @import 'https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400';
 
 /*
@@ -27,7 +6,6 @@ HACIA ABAJO ES EL CONTENIDO DEL TEMPLETE
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
- 
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -122,10 +100,10 @@ input, select, textarea {
 
 	body {
 		background-color: #935d8c;
-		background-image: url("css/images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("css/images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("css/images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
-		background-image: url("css/images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg, #e37682 15%, #5f4d93 85%);
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3143,8 +3121,7 @@ input, select, textarea {
 				#header.alt .logo img {
 					display: block;
 					margin: 0 auto;
-					max-width: 20%;
-          border-radius: 150px;
+					max-width: 75%;
 				}
 
 		@media screen and (max-width: 1280px) {
@@ -3789,11 +3766,7 @@ input, select, textarea {
 		width: 64em;
 		max-width: calc(100% - 4em);
 		margin: 0 auto;
-    /*display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    align-items: center;*/
-  }
+	}
 
 		@media screen and (max-width: 480px) {
 
@@ -3810,20 +3783,3 @@ input, select, textarea {
 			}
 
 		}
-
-
-    /*
-    ESTILOS ANEXADOS PARA LISTA
-    */
-
-    #tresColumnContent{
-      -moz-columns: 8em 4;
-			-webkit-columns: 8em 4;
-			-ms-columns: 8em 4;
-			columns: 8em 4;
-			-moz-column-gap: 4em;
-			-webkit-column-gap: 4em;
-			-ms-column-gap: 4em;
-			column-gap: 4em;
-			text-align: justify;
-    }
